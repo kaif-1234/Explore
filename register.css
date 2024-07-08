@@ -1,0 +1,152 @@
+.review{
+    width: 100%;
+    position: absolute;
+    top: 7rem;
+    /* height: 100vh; */
+    /* padding: 70px 0; */
+}
+
+.register{
+    width: 100%;
+    position: absolute;
+    top: 7rem;
+}
+
+.register h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 55px;
+}
+
+.register h1 span{
+    color: #eb2226;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+.register h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.register .register_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.register .register_main .register_image img{
+    height: 30rem;
+    width: 47rem;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.register .register_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+
+.register .register_main form .input p{
+    line-height: 25px;
+}
+
+.register .register_main form .input{
+    margin: 5px;
+}
+
+.register .register_main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+.register .register_main form .input input:focus{
+    border: 2px solid #fac031;
+}
+
+.register .register_main form .order_btn{
+    padding: 10px 0;
+    background: #48bfe3;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+    /* margin-top: 8rem; */
+    position: absolute;
+    top: 45rem;
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover{
+    color: #fac031;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer .end span{
+    color: #fac031;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fac031;
+    border-radius: 15px;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.icon-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoryn {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    left: 27rem;
+}
+
+.categoryn img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.categoryn p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.categoryn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nn {
+    color: rgb(194, 76, 95);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.nm {
+    padding: 2em;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+.category {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1em;
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.category h2 {
+    margin: 1em 0 0;
+    font-size: 1.2em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+}
+
+section nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0)}
